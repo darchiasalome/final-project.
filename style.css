@@ -1,0 +1,214 @@
+body{
+    width: 1000px;
+    height: 600px;
+}
+
+.account{
+    position: absolute;
+    width: 306px;
+    height: 27px;
+    left: 980px;
+    top: 50px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+ 
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #BDBDBD;
+}
+
+.sign-in{
+    position: absolute;
+    width: 306px;
+    height: 27px;
+    left: 1225px;
+    top: 50px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 520;
+    font-size: 18px;
+    line-height: 27px;
+ 
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #28CDBA;
+}
+
+.logo{
+	position: absolute;
+    width: 500px;
+    height: 700px;
+    left: 30px;
+    top: -20px;
+}
+
+#banner{
+	width: 500px;
+	height: 700px;
+}
+
+#title{
+	position: absolute;
+    width: 188px;
+    height: 87px;
+    left: 86px;
+    top: 265px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 87px;
+ 
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#small-title{
+	position: absolute;
+    width: 247px;
+    height: 27px;
+    left: 86px;
+    top: 380px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+ 
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+.right{
+    position: absolute;
+    width: 550px;
+    height: 563px;
+    left: 616px;
+    top: 60px;
+ }
+
+.Create{
+    position: absolute;
+    width: 210px;
+    height: 28px;
+    left: -3px;
+    top: 10px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+label{
+    position: absolute;
+    width: 71px;
+    height: 15px;
+    left: 616px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #BDBDBD;
+}
+
+input{
+    position: absolute;
+    width: 550px;
+    height: 60px;
+    left: 616px;
+
+    background: #FDFDFD;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[name=email]{
+    top: 280px;
+}
+
+input[name=password]{
+    top: 380px;
+}
+
+input[name=name]{
+    top: 180px;
+}
+
+input[type="checkbox"]{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 615px;
+    top: 465px;
+
+    border-radius: 0px;
+}
+
+.check label{
+    position: absolute;
+    width: 352px;
+    height: 27px;
+    left: 659px;
+    top: 466px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+
+    color: #BDBDBD;
+}
+
+.sumbit-button{
+    position: absolute;
+    height: 60px;
+    width: 550px;
+    left: 629px;
+    top: 540px;
+
+    border-radius: 10px;
+    background: #28CDBA;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+ 
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
